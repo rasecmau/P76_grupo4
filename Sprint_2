@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Salva vidas, dona SANGRE!</title>
+</head>
+
+<body>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            max-width: 1400px;
+            min-width: 375px;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 0;
+            margin-bottom: 0;
+            color: #222222;
+        }
+
+        .header-section {
+            margin-bottom: 100px;
+        }
+
+        .header-container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            text-align: center;
+
+        }
+
+        .site-title {
+            width: 30%;
+        }
+
+        .site-nav {
+            width: 40%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .site-nav>a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .site-nav>a:hover {
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+        .logo-container {
+            width: 30%;
+        }
+
+        .logo-container__site-logo {
+            height: 100px;
+        }
+
+        .banner {
+            width: 100%;
+        }
+
+        .banner>img {
+            width: 100%;
+            height: 550px;
+            max-width: 1300px;
+            object-fit: cover;
+        }
+
+        .services-section,
+        .seccion-noticias,
+        .seccion-equipo {
+            display: flex;
+            margin-bottom: 100px;
+        }
+
+        .seccion-noticias,
+        .header-container{
+            background-color: #f7f7f7
+
+        }
+
+        .seccion-noticias {
+            flex-wrap: wrap;
+        }
+
+        .services-info {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .news-info {
+            width: 50%;
+            padding: 20px;
+        }
+
+        .news-header {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .news-info__title {
+            align-self: center;
+        }
+
+        .seccion-pie {
+            background-color: #25294f;
+            height: 200px;
+            display: flex;
+            color: white;
+            justify-content: space-evenly;
+        }
+
+        .services-info__imagen {
+            border-radius: 50%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .team-info{
+            width: 25%;
+            padding: 15px;
+        }
+
+        .team-info__imagen{
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    </style>
+
+<!-- inicio encabezado del sitio -->
+    <div class="header-section">
+        <div class="header-container">
+
+            <div class="site-title">
+                <h1>BANCO DONANTES DE SANGRE</h1>
+            </div>
+            
+            <!-- Inicio menú navegación -->
+            <ul class="site-nav">
+                <a href="#">Inicio</a>
+                <a href="#services">Institucional</a>
+                <a href="#news">Requisitos</a>
+                <a href="#team">Nuestro equipo</a>
+            </ul>
+            <!-- Fin menú navegación -->
+
+            
+            
+            <div class="logo-container">
+                <img class="logo-container__site-logo" src="https://image.freepik.com/vector-gratis/linda-gota-sangre-simbolo-pulgar-arriba-redes-sociales-diseno-estilo-lindo-camiseta-pegatina-elemento-logotipo_152558-9845.jpg" alt="Logo MisionTic 2022">
+            </div>
+        </div>
+            
+        <div class="banner">
+            <img src="https://www.iberomed.es/blog/wp-content/uploads/2019/02/28-feb-portada-Donar-sangre-iberomed-600x337.png" alt="A banner image">
+        </div>
+    </div>
+<!-- fin encabezado del sitio -->
+
+
+    <!-- inicio contenido principal -->
+    <div>
+
+
+        <h1>Servicios</h1>
+        <!-- inicio sección de servicios -->
+       <section id="services" class="services-section">
+            <article class="services-info">
+                <img class="services-info__imagen"
+                    src="https://tse1.mm.bing.net/th?id=OIP.1j2S4oD4usAhTiCuMZyPEgHaHB&pid=Api&P=0&w=300&h=300" alt="">
+                <h2 class="services-info__title">Requisitos</h2>
+                <div class="services-info__text">
+                    <h4 class="services-info_req">. Sentirse bien de salud</h4>
+                    <h4 class="services-info_req">. Haber consumido una buena porción de alimentos durante las últimas 4
+                        horas anteriores a la donación.</h4>
+                    <h4 class="services-info_req">. Tener entre 18 y 65 años de edad.</h4>
+                    <h4 class="services-info_req">. Pesar más de 50 kilos.</h4>
+                </div>
+
+                <div class="services-info__text">
+                    <h4 class="services-info_req">. Presentar cédula de ciudadanía o extranjería, libreta militar o
+                        carné institucional con foto.</h4>
+                    <h4 class="services-info_req">. Haber dormido de 6 a 8 horas.</h4>
+                    <h4 class="services-info_req">. No usar faja al momento de la donación.</h4>
+                    <h4 class="services-info_req">. No haber padecido de cáncer, ni tener enfermedades del corazón o los
+                        pulmones.</h4>
+                </div>
+
+                <div class="services-info__text">
+                    <h4 class="services-info_req">. No haber iniciado un cuadro gripal o infeccioso los últimos quince
+                        días.</h4>
+                    <h4 class="services-info_req">. No ser un consumidor crónico y activo de drogas psicoactivas y
+                        alucinógenos.</h4>
+                    <h4 class="services-info_req">. No estar en embarazo ni haber tenido parto o aborto en el último
+                        año.</h4>
+                    <h4 class="services-info_req">. No haber visitado zonas endémicas de malaria (en los últimos tres
+                        meses) y leishmaniasis (en los últimos 2 años).</h4>
+                </div>
+
+
+            </article>
+            <p><img id="img_benef"
+                    src="http://www.hagodieta.com/wp-content/uploads/2016/08/beneficios-donar-sangre-http-www-hagodieta-com-120px.jpg"
+                    alt=""></p>
+            <br>
+            <br>
+            <article id="benef">
+
+                <br><br>
+
+                <div class="services-beneficios">
+                    <img class="beneficios__imagen"
+                        src="https://3.bp.blogspot.com/-MoRqF3TCG_8/UHrnOpqk1iI/AAAAAAAAAAo/J8Yg5QvAZ2w/s1600/surgery_beneficios_autotransfusion.jpg"
+                        alt="">
+                    <br>
+                    Donar sangre aumenta la capacidad pulmonar, los niveles de oxigenación en todos los tejidos.
+                    <br>
+
+                </div>
+
+                <div class="services-beneficios">
+                    <img class="beneficios__imagen"
+                        src="https://photos.gograph.com/thumbs/CSP/CSP302/blood-transfusion-cartoon-character-vector-clipart_k52978992.jpg"
+                        alt="">
+                    <br>
+                    Previene daños circulatorios e infartos.
+                    <br>
+
+                </div>
+
+                <div class="services-beneficios">
+                    <img class="beneficios__imagen"
+                        src="https://tse2.mm.bing.net/th?id=OIP.26xlB7anMF_COc4l0qn1LQHaGk&pid=Api&P=0&w=167&h=148"
+                        alt="">
+                    <br>
+                    Lo mejor, dice Pérez, viene al final,
+                    cuando le avisan al donante que con su sangre se salvarán tres vidas,
+                    un factor emocional “que al altruista lo llena”.
+                    <br>
+
+                </div>
+        </section>
+        <!-- fin sección de servicios -->
+
+
+
+        <h1>Noticias</h1>
+        <!-- inicio sección de noticias -->
+        <div id="noticias" class="seccion-noticias">
+            <article class="news-info">
+                <div class="news-header">
+                    <img class="news-info__imagen" src="http://placeimg.com/400/200/animals" alt="">
+                    <h2 class="news-info__title">Ventajas</h2>
+                </div>
+                <p class="news-info__text">
+                    - Donar sangre no engorda ni debilita, sino todo lo contrario, pues los órganos reciben sangre joven al producirse células nuevas.
+                    - La sangre fluye mejor. Con la donación, la sangre fluye de manera menos perjudicial para el revestimiento de los vasos sanguíneos.
+                    - Mejora el proceso de circulación permitiendo mayor oxigenación a los tejidos del cuerpo
+                </p>
+            </article>
+
+            <article class="news-info">
+                <div class="news-header">
+                    <img class="news-info__imagen" src="http://placeimg.com/400/200/tech" alt="">
+                    <h2 class="news-info__title">Requisitos para la donación de sangre total</h2>
+                </div>
+                <p class="news-info__text">
+                    - Pesar más de 50 kg
+                    - Edad: 18 años a 65 años
+                    - Portar un documento de identificación con foto
+                    - Encontrarse en buen estado de salud.
+                </p>
+            </article>
+
+            <article class="news-info">
+                <div class="news-header">
+                    <img class="news-info__imagen" src="http://placeimg.com/400/200/arch" alt="">
+                    <h2 class="news-info__title">¿Para qué se transfunde la sangre?</h2>
+                </div>
+                <p class="news-info__text">
+                    - Son comúnmente usadas para pacientes que están recibiendo trasplantes de órganos, de médula ósea entre otros. 
+                    - Incapacidad de producir suficiente sangre. Algunas enfermedades y tratamientos pueden afectar negativamente 
+                    a la capacidad de la medula ósea para fabricar sangre por ejemplo la quimioterapia reduce la producción de nuevas células sanguíneas.
+                </p>
+            </article>
+
+            <article class="news-info">
+                <div class="news-header">
+                    <img class="news-info__imagen" src="http://placeimg.com/400/200/people" alt="">
+                    <h2 class="news-info__title">Más requisitos</h2>
+                </div>
+                <p class="news-info__text">
+                    - Haber consumido algún alimento en las últimas 4 horas
+                    - Esperar 12 meses si se realizó tatuajes o piercing
+                    - Esperar 1 mes si visito zonas endémicas
+                    - Los hombres pueden donar cada tres meses y las mujeres cada seis meses.
+                </p>
+            </article>
+
+        </div>
+        <!-- fin sección de noticias -->
+
+
+        <h1>Equipo</h1>
+        <!-- inicio sección de equipo -->
+        <section id="team" class="seccion-equipo">
+
+            <article class="team-info">
+                <img class="team-info__imagen" src="http://placeimg.com/100/200/people" alt="">
+                <h2 class="team-info__title">Nicolas Plata </h2>
+                <p class="team-info__text">
+                    En el proyecto se desarrolla como el product mánager es una persona que asegura la gestión del producto o líneas de productos,
+                    coordinando los diferentes departamentos de la empresa que intervienen en dicha gestión, con el objetivo de satisfacer las 
+                    necesidades del consumidor mejor que la competencia.
+                </p>
+            </article>
+
+            <article class="team-info">
+                <img class="team-info__imagen" src="http://placeimg.com/100/200/tech" alt="">
+                <h2 class="team-info__title">Andres Rondon</h2>
+                <p class="team-info__text">
+                    En el proyecto se desarrolla como miembro del development team, ayuda a crear parte importante del proyecto como el desarrollo 
+                    de interfaces de usuario y servicios. 
+                </p>
+            </article>
+
+            <article class="team-info">
+                <img class="team-info__imagen" src="http://placeimg.com/100/200/nature" alt="">
+                <h2 class="team-info__title">Alcira Sanchez</h2>
+                <p class="team-info__text">
+                    En el proyecto se desarrolla como miembro del development team, ayuda a crear parte importante del proyecto como el desarrollo 
+                    de interfaces de usuario y footer, motiva y ayuda a agilizar la creación y ejecución del proyecto. 
+                </p>
+            </article>
+
+            <article class="team-info">
+                <img class="team-info__imagen" src="https://s3-sa-east-1.amazonaws.com/doctoralia.co/doctor/2ad0f0/2ad0f0a8f04165b4606fb7755cd773d7_220_square.jpg" alt="">
+                <h2 class="team-info__title">Diana M. Parra Leal</h2>
+                <p class="team-info__text">
+                    En el proyecto se desarrolla como miembro del development team, ayuda a crear parte importante del proyecto como el desarrollo 
+                    de interfaces de usuario y encabezado, investiga conceptos relacionados al proyecto y facilita la disposición de información. 
+                </p>
+            </article>
+
+            <article class="team-info">
+                <img class="team-info__imagen" src="http://placeimg.com/100/200/arch" alt="">
+                <h2 class="team-info__title">Mauricio Peña</h2>
+                <p class="team-info__text">
+                    Se desarrolla como Scrum master, ayuda con la metodología ágil y la creación de secciones importantes como noticias, 
+                    es parte importante del desarrollo de las historias de usuario. 
+                </p>
+            </article>
+
+        </section>
+        <!-- fin sección de equipo -->
+
+    </div>
+    <!-- fin contenido principal -->
+
+    <!-- Inicio pie del sitio -->
+    <div class="seccion-pie">
+        <article>
+            <h2>Contacto</h2>
+            <p>Calle 14 # 68 B-32 Bogotá Colombia</p>
+            <p>Donaciones@misiontic2022</p>
+            <p>Tel: 123456789</p>
+        </article>
+        <article>
+            <h2>Banco de sangre</h2>
+            <p>¡Salva vidas Hoy!</p>
+            <p>Requisitos</p>
+            <p>Inscripcion</p>
+        </article>
+    </div>
+    <!-- fin pie del sitio -->
+
+</body>
+
+</html>
